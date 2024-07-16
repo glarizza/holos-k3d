@@ -1,3 +1,19 @@
 {
-  "platformId": "0190bd37-2e9e-736b-ac3d-57cb36f67c7e"
+  "platformId": "0190bd37-2e9e-736b-ac3d-57cb36f67c7e",
+  "platformModel": {
+    "argocd": {
+      "clientID": "275571279971577269@holos_quickstart",
+      "deployRoot": ".",
+      "repoURL": "https://github.com/glarizza/holos-k3d",
+      "targetRevision": "HEAD"
+    },
+    "org": {
+      "displayName": "K3d Demo Organization",
+      "domain": "holos.localhost",
+      "name": "k3d-demo"
+    },
+    "rbac": {
+      "sub": "276262662046772661"
+    }
+  }
 }
